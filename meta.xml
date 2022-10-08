@@ -26,12 +26,5 @@
     <!-- Functions -->
         <export function="randomKey" type="client"/>
     <!-- Functions -->
-    <!-- Tests -->
-        <file src="example/index.gtml"/>
-        <file src="example/script.lua"/>
-        <file src="example/style.css"/>
-        <file src="example/tiger.svg"/>
-        <file src="example/win.svg"/>
-    <!-- Tests -->
     <min_mta_version server="1.5.4-9.11342" client="1.5.4-9.11342" />
 </meta>
