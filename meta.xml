@@ -1,0 +1,37 @@
+<meta>
+    <info author="Mobin Yengejehi" version="1.0.0" name="GTML Framework" description="This is a framework for mtasa based on SVG and DX graphics." type="script"/>
+    <!-- Libraries -->
+        <script src="library/async.lua" type="shared" cache="false" validate="false"/>
+        <script src="library/class.lua" type="shared" cache="false" validate="false"/>
+    <!-- Libraries -->
+    <!-- Utils -->
+        <script src="utils/storage.lua" type="client" cache="false" validate="false"/>
+        <script src="utils/string.lua" type="shared" cache="false" validate="false"/>
+        <script src="utils/stream.lua" type="client" cache="false" validate="false"/>
+        <script src="utils/utils.lua" type="client" cache="false" validate="false"/>
+        <script src="utils/bounding.lua" type="client" cache="false" validate="false"/>
+        <script src="utils/css.lua" type="client" cache="false" validate="false"/>
+        <script src="utils/data.lua" type="client" cache="false" validate="false"/>
+        <script src="utils/texture.lua" type="client" cache="false" validate="false"/>
+        <script src="utils/style.lua" type="client" cache="false" validate="false"/>
+    <!-- Utils -->
+    <!-- Scripts -->
+        <script src="scripts/sourceS.lua" type="server" cache="false" validate="false"/>
+        <script src="scripts/sourceC.lua" type="client" cache="false" validate="false"/>
+    <!-- Scripts -->
+    <!-- Elements -->
+        <script src="elements/canvas.lua" type="client" cache="false" validate="false"/>
+        <script src="elements/path.lua" type="client" cache="false" validate="false"/>
+    <!-- Elements -->
+    <!-- Functions -->
+        <export function="randomKey" type="client"/>
+    <!-- Functions -->
+    <!-- Tests -->
+        <file src="example/index.gtml"/>
+        <file src="example/script.lua"/>
+        <file src="example/style.css"/>
+        <file src="example/tiger.svg"/>
+        <file src="example/win.svg"/>
+    <!-- Tests -->
+    <min_mta_version server="1.5.4-9.11342" client="1.5.4-9.11342" />
+</meta>
